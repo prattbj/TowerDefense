@@ -13,5 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Casting">
+      <UniqueIdentifier>{d9f8fa1a-3358-4ad2-85c6-3877895864ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Casting">
+      <UniqueIdentifier>{0c767168-9232-4d26-bfe8-9862e9191106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scripting">
+      <UniqueIdentifier>{51e61e14-e0d7-4e4e-a215-007dd20307ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scripting">
+      <UniqueIdentifier>{2143c8d9-3031-4b03-81d8-91dffa0426e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Casting\Cast.cpp">
+      <Filter>Source Files\Casting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\Script.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\Draw.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Casting\Cast.h">
+      <Filter>Header Files\Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scripting\Script.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Casting\Actor.h">
+      <Filter>Header Files\Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scripting\Action.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
