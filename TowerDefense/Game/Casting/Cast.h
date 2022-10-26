@@ -18,6 +18,7 @@ public:
 	{
 		return this->cast;
 	};
+	void destroyActor(std::string group, Actor* actor);
 private:
 	std::map<std::string, std::list<Actor*>> cast;
 

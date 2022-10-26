@@ -135,15 +135,31 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Game\Casting\Cast.cpp" />
+    <ClCompile Include="Game\Casting\Tower.cpp" />
+    <ClCompile Include="Game\Scripting\Attack.cpp" />
+    <ClCompile Include="Game\Scripting\CreateEnemies.cpp" />
+    <ClCompile Include="Game\Scripting\DestroyActors.cpp" />
+    <ClCompile Include="Game\Scripting\Draw.cpp" />
     <ClCompile Include="Game\Scripting\Draw.h" />
+    <ClCompile Include="Game\Scripting\Mouse.cpp" />
+    <ClCompile Include="Game\Scripting\Move.cpp" />
     <ClCompile Include="Game\Scripting\Script.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game\Casting\Actor.h" />
+    <ClInclude Include="Game\Casting\Button.h" />
     <ClInclude Include="Game\Casting\Cast.h" />
-    <ClInclude Include="Game\Point.h" />
+    <ClInclude Include="Game\Casting\Enemy.h" />
+    <ClInclude Include="Game\Casting\Player.h" />
+    <ClInclude Include="Game\Casting\Shock.h" />
+    <ClInclude Include="Game\Casting\Tower.h" />
     <ClInclude Include="Game\Scripting\Action.h" />
+    <ClInclude Include="Game\Scripting\Attack.h" />
+    <ClInclude Include="Game\Scripting\CreateEnemies.h" />
+    <ClInclude Include="Game\Scripting\DestroyActors.h" />
+    <ClInclude Include="Game\Scripting\Mouse.h" />
+    <ClInclude Include="Game\Scripting\Move.h" />
     <ClInclude Include="Game\Scripting\Script.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -11,7 +11,6 @@
 class Script
 {
 public:
-	Script() {};
 	std::list<Action*> getActions(std::string group);
 	void addAction(std::string group, Action* action);
 private:

@@ -1,14 +1,12 @@
 #pragma once
-#ifndef ACTION_H
-#define ACTION_H
+
 #include "../Casting/Cast.h"
 #include "raylib.h"
+#include "Action.h"
 //A thing that happens.
-class Action
+class Attack : public Action
 {
 public:
-	virtual void execute(Cast* cast) {};
+	virtual void execute(Cast* cast);
 
 };
-
-#endif

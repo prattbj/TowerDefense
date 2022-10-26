@@ -39,6 +39,27 @@
     <ClCompile Include="Game\Scripting\Draw.h">
       <Filter>Header Files\Scripting</Filter>
     </ClCompile>
+    <ClCompile Include="Game\Casting\Tower.cpp">
+      <Filter>Source Files\Casting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\Draw.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\Mouse.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\Move.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\CreateEnemies.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\Attack.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scripting\DestroyActors.cpp">
+      <Filter>Source Files\Scripting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game\Casting\Cast.h">
@@ -53,8 +74,35 @@
     <ClInclude Include="Game\Scripting\Action.h">
       <Filter>Header Files\Scripting</Filter>
     </ClInclude>
-    <ClInclude Include="Game\Point.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Game\Casting\Tower.h">
+      <Filter>Header Files\Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Casting\Shock.h">
+      <Filter>Header Files\Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scripting\Mouse.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Casting\Button.h">
+      <Filter>Header Files\Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scripting\Move.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Casting\Player.h">
+      <Filter>Header Files\Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Casting\Enemy.h">
+      <Filter>Header Files\Casting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scripting\CreateEnemies.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scripting\Attack.h">
+      <Filter>Header Files\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scripting\DestroyActors.h">
+      <Filter>Header Files\Scripting</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

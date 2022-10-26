@@ -1,4 +1,3 @@
-
 #include "Script.h"
 //Return a list of pointers to actions
 std::list<Action*> Script::getActions(std::string group)

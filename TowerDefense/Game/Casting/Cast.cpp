@@ -12,3 +12,8 @@ void Cast::addActor(std::string group, Actor* actor)
 
 }
 
+//Destroy an actor
+void Cast::destroyActor(std::string group, Actor* actor)
+{
+	cast[group].remove(actor);
+}
