@@ -26,3 +26,4 @@ I used Raylib in Visual Studio 2022 using C++.
 * Prevent towers from being placed on each other
 * Add 1 v 1 game mode with online functionality
 * Add more types of towers and enemies
+* Organize classes into seperate namespaces
